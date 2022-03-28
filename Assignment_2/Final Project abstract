@@ -1,0 +1,7 @@
+ Image Similarity Search Problem: 
+ 
+ Recent progress of theoretical studies on compact data structures (also called “sketches”) have raised the question of whether they can effectively apply to 
+ content-based image retrieval systems. The main challenge is to derive an algorithm that achieves high-quality similarity searches while using very compact metadata. 
+ This project proposes a new similarity search method consisting of three parts. The first is a new region feature representation with weighted L1 distance function, 
+ and EMD* match, an improved EMD match, to compute image similarity. The second is a thresholding and transformation algorithm to convert feature vectors into very 
+ compact data structures. The third is an EMD embedding based filtering method to speed up the query process.
